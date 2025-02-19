@@ -67,18 +67,80 @@ nav ul li a:hover {
     color: black;
 }
 
-.open li {
-    display: block;
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background:  #2E8B57;
+    color: white;
 }
 
-/* ID Selectors */
-#favorite-foods, #hobbies, #places-lived {
+header img {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+/* Main Content */
+main {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+}
+
+/* Biography Sections */
+section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+section div:last-child {
+    border-bottom: none;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: #4f4c4c;
+    flex-basis: 40%;
+    text-align: right;
+}
+
+/* Data Content */
+span, ul, dl {
+    flex-basis: 55%;
+    text-align: left;
     margin: 0;
     padding: 0;
+}
+
+/* Lists */
+ul, dl {
     list-style: none;
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
+}
+
+/* Places Lived Formatting */
+dl dt {
+    font-weight: bold;
+    color: #46a349;
+}
+
+dl dd {
+    margin-left: 10px;
+    color: #767474;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
 }
 
 /* Media Queries */

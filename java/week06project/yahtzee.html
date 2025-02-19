@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">  
     <meta name="description" content="Yahtzee Page">
@@ -8,16 +9,29 @@
     <title>Yahtzee Scoresheet</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
-    <main>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../week03/task3.html">Functions</a></li>
+            <li><a href="../week04/task4.html">Biography</a></li>
+            <li><a href="../week05/task5.html">Temple Sorter</a></li>
+            <li><a href="../week06project/yahtzee.html" class="active">Yahtzee</a></li>
+        </ul>
+    </nav>
+    <header>
         <h1>Yahtzee Scoresheet</h1>
+    </header>
+    <main>
         <p>Fill in your scores below and this sheet can calculate your score for you!</p>
         <table>
             <tr>
                 <th id="descriptionBoxTitle">Upper Section</th>
                 <th id="descriptionBoxTitle">Scores</th>
             </tr>
-            <tr>+
+            <tr>
                 <td id="descriptionBox">Ones</td>
                 <td>
                     <input type="text" id="set1">
@@ -148,6 +162,9 @@
         </div>
         <p>Thanks for using the sheet!</p>
     </main>
+    <footer>
+        &copy;<span id="year"></span> | Yahtzee | Eli Murdock
+    </footer>
     <script src="yahtzee.js"></script>
 </body>
 </html>

@@ -16,12 +16,12 @@ let message1;
 
 // Step 5: Using an if statement, if the day of the week is a weekday (i.e. Monday - Friday), set the message variable to the string 'Hang in there!'
 if (day in [1,2,3,4,5]) {
-    message1 = 'Hang in there!'
+    message1 = 'Hang in there till the weekend!'
 }
 
 // Step 6: Using an else statement, set the message variable to 'Woohoo!  It is the weekend!'
 else {
-    message1 = 'Woohoo!'
+    message1 = 'Congratulations wou made it to the weekend!'
 }
 /* SWITCH, CASE, BREAK */
 

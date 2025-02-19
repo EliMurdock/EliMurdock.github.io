@@ -6,10 +6,10 @@
 let myself = {};
 
 // Step 2: Inside of the object, add a property named name with a value of your name as a string
-myself.name = "Elijah"
+myself.name = "Eli Daryl Murdock"
 
 // Step 3: Add another property named photo with a value of the image path and name (used in Task 2) as a string
-myself.photo = 'images/20210915_225233.jpg'
+myself.photo = 'images/Goldbug.jpg'
 
 // Step 4: Add another property named favoriteFoods with a value of an array of your favorite foods as strings ( hint: [] )
 myself.favoriteFoods = ['Chocolate', 'Macaroni & Cheese', 'French Bread', 'Watermelon']

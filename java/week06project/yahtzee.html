@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="description" content="Yahtzee Page">
+  	<meta name="author" content="Eli Murdock">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahtzee Scoresheet</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <main>
+        <h1>Yahtzee Scoresheet</h1>
+        <p>Fill in your scores below and this sheet can calculate your score for you!</p>
+        <table>
+            <tr>
+                <th id="descriptionBoxTitle">Upper Section</th>
+                <th id="descriptionBoxTitle">Scores</th>
+            </tr>
+            <tr>+
+                <td id="descriptionBox">Ones</td>
+                <td>
+                    <input type="text" id="set1">
+                </td>
+            </tr>                 
+            <tr>
+                <td id="descriptionBox">Twos</td>
+                <td>
+                    <input type="text" id="set2">
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">Threes</td>
+                <td>
+                    <input type="text" id="set3">
+                </td>
+            </tr>                 
+            <tr>
+                <td id="descriptionBox">Fours</td>
+                <td>
+                    <input type="text" id="set4">
+                </td>
+            </tr>           
+            <tr>
+                <td id="descriptionBox">Fives</td>
+                <td>
+                    <input type="text" id="set5">
+                </td>
+            </tr>            
+            <tr>
+                <td id="descriptionBox">Sixes</td>
+                <td>
+                    <input type="text" id="set6">
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">Total Score</td>
+                <td>
+                    <input type="text" id="totalFirst" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">Bonus 35 if at least 61</td>
+                <td>
+                    <input type="text" id="bonus" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">Total of upper section</td>
+                <td>
+                    <input type="text" id="totalUp" disabled>
+                </td>
+            </tr>
+            <tr>
+                <th id="descriptionBoxTitle">Lower Section</th>
+                <th id="descriptionBoxTitle">Scores</th>
+            </tr>
+            <tr>
+                <td id="descriptionBox">3 of a Kind</td>
+                <td>
+                    <input type="text" id="kind3">
+                </td>
+            </tr>                 
+            <tr>
+                <td id="descriptionBox">4 of a Kind</td>
+                <td>
+                    <input type="text" id="kind4">
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">Full House</td>
+                <td>
+                    <input type="text" id="fullHouse">
+                </td>
+            </tr>                 
+            <tr>
+                <td id="descriptionBox">Small Straight</td>
+                <td>
+                    <input type="text" id="smallStraight">
+                </td>
+            </tr>           
+            <tr>
+                <td id="descriptionBox">Large Straight</td>
+                <td>
+                    <input type="text" id="largeStraight">
+                </td>
+            </tr>            
+            <tr>
+                <td id="descriptionBox">Chance</td>
+                <td>
+                    <input type="text" id="chance">
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">Yahtzee</td>
+                <td>
+                    <input type="text" id="yahtzee1">
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">2nd Yahtzee</td>
+                <td>
+                    <input type="text" id="yahtzee2">
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">Third Yahtzee</td>
+                <td>
+                    <input type="text" id="yahtzee3">
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">Total of Lower Section</td>
+                <td>
+                    <input type="text" id="totalLow" disabled>
+                </td>
+            </tr>
+            <tr>
+                <td id="descriptionBox">Grand Total</td>
+                <td>
+                    <input type="text" id="grandTotal" disabled>
+                </td>
+            </tr>
+
+        </table>
+        <div>
+            <input type="button" id="calculate" value="Calculate">
+        </div>
+        <p>Thanks for using the sheet!</p>
+    </main>
+    <script src="yahtzee.js"></script>
+</body>
+</html>

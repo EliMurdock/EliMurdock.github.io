@@ -1,0 +1,22 @@
+main {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+div {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+th, td {
+    border: solid black 0.5px;
+}
+
+#descriptionBoxTitle {
+    padding: 10px;
+}

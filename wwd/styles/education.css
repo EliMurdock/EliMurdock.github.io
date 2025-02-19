@@ -1,0 +1,52 @@
+body {
+    background-color: #644e84;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    
+}
+
+h1:hover {
+    color: black;
+}
+
+h2 {
+    font-size: 13px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+}
+
+ol {
+    font-weight: bold;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 25px;
+}
+
+quote {
+    color: white;
+    display: block;
+    font-size: 35px;
+    max-width: 325px;
+    text-align: center;
+    margin: 0 auto;
+}

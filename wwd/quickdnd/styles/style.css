@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+/* colors: https://coolors.co/396e94-59c3c3-ebebeb-cad2c5-646536 */
+
+/* rules for all */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ebebeb;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/* rules for header */
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+}
+
+header {
+    background-color: #396e94;
+}
+
+nav {
+    display: grid;
+    font-size: 28px;
+    grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+}
+
+nav a {
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #59c3c3;
+    color: black;
+}
+
+/* rules for races page */
+
+#welcome {
+    background-color: #59c3c3;
+    margin: 25px;
+    padding: 25px;
+}
+
+#welcome > h1 {
+    text-decoration: none;
+}
+
+#welcome > p {
+    font-size: 20px;
+}
+
+#race_box {
+width: 100%;
+margin-bottom: 15px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.race {
+    margin: 20px;
+    padding: 10px;
+    padding-top: 0px;
+    background-color: #cad2c5;
+}
+
+/* rules for classes page */
+
+#class_box {
+    width: 100%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.class {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.class > h3 {
+    text-align: left;
+    padding: 5px;
+    background-color: #59c3c3;
+}
+
+.class > p {
+    padding-bottom: 10px;
+}
+
+/* rules for backgrounds page */
+
+#background_background {
+    background-color: #cad2c5;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#background_background > h1 {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: #59c3c3;
+}
+
+#background_box {
+    width: 100%;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+#background {
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: 180px auto;
+}
+
+#background > h3 {
+    margin: auto;
+}
+
+
+/* rules for footer */
+footer {
+    background-color: #396e94;
+    font-size: 16px;
+    color: black;
+    margin-top: -5px;
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+footer a {
+    grid-column: 4/5;
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(25, 25, 25);
+}
+
